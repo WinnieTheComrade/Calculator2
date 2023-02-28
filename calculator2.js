@@ -9,19 +9,19 @@ let equal = document.querySelector('.equal');
 let decimal = document.querySelectorAll('.decimal');
 
 let operators = {
-    add(operant, operant){
-    totalValue += operant + operant;
+    add(operant1, operant2){
+    totalValue += operant1 + operant2;
     },
-    subtract(operant,operant){
-    totalValue -= operant - operant;
-    },
-
-    multiply(operant,operant){
-    totalValue *= operant * operant;
+    subtract(operant1,operant2){
+    totalValue -= operant1 - operant2;
     },
 
-    divide(operant,operant){
-    totalValue /= operant / operant;
+    multiply(operant1,operant2){
+    totalValue *= operant1 * operant2;
+    },
+
+    divide(operant1,operant2){
+    totalValue /= operant1 / operant2;
     },
 }
 
