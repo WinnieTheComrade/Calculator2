@@ -25,4 +25,6 @@ let operators = {
     },
 }
 
-let operate = function()
+let operate = function(operant1,operator,operant2){
+    if()
+}
